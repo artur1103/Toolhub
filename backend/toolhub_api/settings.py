@@ -50,6 +50,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'toolhub_api.middleware.GlobalRequestLoggerMiddleware',
+
 ]
 
 ROOT_URLCONF = 'toolhub_api.urls'
