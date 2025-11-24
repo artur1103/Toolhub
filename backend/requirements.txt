@@ -1,0 +1,10 @@
+Django>=5.0
+djangorestframework
+psycopg2-binary
+gunicorn
+
+requests
+beautifulsoup4
+PyYAML
+bcrypt
+PyJWT
